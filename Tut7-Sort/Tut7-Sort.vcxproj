@@ -76,11 +76,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ComplexNumber.cpp" />
     <ClCompile Include="Tut7-Sort_Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ComplexNumber.h" />
     <ClInclude Include="ComplexNumberTemplateClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

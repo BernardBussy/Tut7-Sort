@@ -54,9 +54,12 @@ int main()
 	displayArray<char>(chararray, 4);
 
 	ComplexNumberTemplateClass<float> complexValue1(5,6);
-	ComplexNumberTemplateClass<float> complexValue2(3, 5);
-	ComplexNumberTemplateClass<float> complexValue3;
-
-	complexValue1 + complexValue2;
+	ComplexNumberTemplateClass<float> complexValue2(3,5);
+	ComplexNumberTemplateClass<float> complexValue3(4,6);
+	ComplexNumberTemplateClass<float> complexValue4(7,-2);
+	ComplexNumberTemplateClass<float> complexArray[] = { complexValue1, complexValue2, complexValue3, complexValue4 };
+	displayArray <ComplexNumberTemplateClass<float>>(complexArray, 4);
+	sort<ComplexNumberTemplateClass<float>>(complexArray, 4);
+	displayArray <ComplexNumberTemplateClass<float>>(complexArray, 4);
 
 }
