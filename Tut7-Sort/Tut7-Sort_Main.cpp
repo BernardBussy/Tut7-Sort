@@ -1,5 +1,6 @@
 #include <iostream>
 #include "sort.h"
+#include "ComplexNumberTemplateClass.h"
 using namespace std;
 
 //Basic Bubble Sort Function Template
@@ -51,4 +52,11 @@ int main()
 	char  chararray[] = { 'c','e','n','a'};
 	sort<char>(chararray, 4);
 	displayArray<char>(chararray, 4);
+
+	ComplexNumberTemplateClass<float> complexValue1(5,6);
+	ComplexNumberTemplateClass<float> complexValue2(3, 5);
+	ComplexNumberTemplateClass<float> complexValue3;
+
+	complexValue1 + complexValue2;
+
 }
